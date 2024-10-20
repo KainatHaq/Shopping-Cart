@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #27dcc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #c7b9b9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(4, 6, 143);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(159, 4, 118);
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(13, 95, 125);
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(6, 27, 115);
+    color: #cdd107;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(230, 168, 230);
+}
+
+#receipt {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(92, 8, 80);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #container {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    input, button {
+        font-size: 12px;
+    }
+
+    #result {
+        font-size: 14px;
+    }
+}
